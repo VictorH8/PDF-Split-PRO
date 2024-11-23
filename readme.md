@@ -1,50 +1,66 @@
 # PDF Split PRO
 
 **Autor**: Wesley Alexsander  
-**Licença**: MIT  
+**Licença**: GPL v3  
 **Linguagem**: Python  
+
+---
+
+## 🔧 **Tecnologias Usadas**: 
+
+<div align="center">
+  <img src="https://icongr.am/devicon/python-original.svg?size=128&color=currentColor" alt="Python Logo" width="60" height="60"/>
+  <img src="https://icongr.am/devicon/vim-original.svg?size=128&color=currentColor" alt="Vim Logo" width="60" height="60"/>
+</div>
+
+---
 
 ## 📖 Sobre a Ferramenta
 
-O **PDF Split PRO** é uma ferramenta simples e eficaz para separar páginas de um arquivo PDF, nomeá-las automaticamente com base em palavras-chave presentes no conteúdo e salvar cada página como um arquivo PDF individual. 
+O **PDF Split PRO** é uma ferramenta poderosa, simples e eficaz, projetada para automatizar o processo de separação de páginas de arquivos PDF e nomeação automática dessas páginas com base em palavras-chave extraídas do conteúdo do documento. 
 
-Essa ferramenta foi desenvolvida para resolver um problema que enfrentei como jovem aprendiz na área administrativa. Durante esse período, precisei usar uma ferramenta chamada **PDF24**, onde era necessário enviar, manualmente, uma página por vez de contracheques para separar, nomear e encaminhar aos colaboradores. O processo era demorado e repetitivo.
+Essa ferramenta foi criada para resolver um problema pessoal que enfrentei como jovem aprendiz na área administrativa. Durante meu trabalho, precisei usar uma ferramenta chamada **PDF24**, onde o processo de separação de contracheques envolvia o upload manual de uma página por vez. Além de ser extremamente demorado e repetitivo, o processo demandava muito tempo e atenção. 
 
-Após ser efetivado, decidi criar essa ferramenta para ajudar os colegas do setor de Recursos Humanos da empresa a realizarem a mesma tarefa de forma mais ágil, automatizada e confiável. O **PDF Split PRO** automatiza a separação e o nomeamento das páginas dos PDFs, tornando o processo mais eficiente.
+Quando fui efetivado, decidi criar uma solução para ajudar os colegas do setor de Recursos Humanos a realizar essa tarefa de maneira mais rápida, eficiente e automatizada. O **PDF Split PRO** facilita a separação, nomeação e organização de documentos, tornando o processo muito mais ágil e confiável.
 
 ---
 
 ## 🚀 Funcionalidades
 
-1. **Separar Páginas do PDF**: Divide um arquivo PDF em várias páginas individuais.
-2. **Nomeação Automática**: Usa palavras-chave no conteúdo das páginas para nomear os arquivos PDF gerados.
-3. **Diretório Personalizado**: Salva os PDFs gerados em um diretório de saída configurável.
-4. **Interface Gráfica Intuitiva**: Fácil de usar com campos para selecionar arquivos, palavras-chave e diretório de saída.
-5. **Criação de Histórico**: Registra detalhes sobre cada operação realizada, incluindo o arquivo processado, palavras-chave usadas e data/hora.
-6. **Barra de Progresso**: Indica visualmente o progresso do processo de separação.
-7. **Sistema Responsivo**: Não trava durante a execução, mesmo em arquivos PDF grandes.
+✨ **Separação de Páginas**: Divida um arquivo PDF em várias páginas individuais, extraindo o conteúdo conforme necessário.  
+🖋️ **Nomeação Automática**: Utilize palavras-chave presentes no conteúdo das páginas para nomear os arquivos PDF gerados, com base nas informações extraídas.  
+📁 **Diretório Personalizado**: Escolha onde deseja salvar os PDFs gerados, com a opção de definir um diretório de saída personalizado.  
+🔧 **Interface Gráfica Intuitiva**: A interface foi construída com **Tkinter**, oferecendo uma maneira fácil de selecionar arquivos, inserir palavras-chave e escolher o diretório de saída.  
+📝 **Criação de Histórico**: Todos os processos realizados são registrados, incluindo detalhes sobre o arquivo processado, palavras-chave usadas e data/hora da execução.  
+⏳ **Barra de Progresso**: Acompanhe visualmente o progresso da separação de páginas com a barra de progresso em tempo real.  
+⚙️ **Sistema Responsivo**: A ferramenta continua funcional e não trava, mesmo ao processar arquivos grandes.  
 
 ---
 
 ## 📂 Para que usar?
 
-- Automatizar a separação de contracheques em um PDF consolidado.
-- Nomear páginas individualmente com base em informações específicas contidas em cada uma.
-- Facilitar a gestão de documentos PDF no setor de RH ou administrativo.
+O **PDF Split PRO** é ideal para quem precisa:
+
+- **Automatizar o processo de separação de contracheques** ou outros documentos em um único arquivo PDF consolidado.  
+- **Nomear automaticamente páginas de um PDF** com base em informações extraídas de palavras-chave específicas em cada página.  
+- **Facilitar a gestão de documentos** no setor de **RH**, administrativo ou em qualquer área que lide com documentos em PDF e precise de uma forma ágil e prática para organizar e distribuir informações.  
 
 ---
 
 ## 📦 Bibliotecas Necessárias
 
-Antes de usar a ferramenta, é necessário instalar as seguintes bibliotecas:
+Antes de rodar a ferramenta, instale as seguintes dependências utilizando o **pip**:
 
-- **PyPDF2**: Manipulação de arquivos PDF.
-- **PyMuPDF (fitz)**: Extração de texto de arquivos PDF.
-- **tkinter**: Criação da interface gráfica.
-- **threading**: Para tornar o programa mais responsivo.
+- **PyPDF2**: Biblioteca para manipulação e extração de dados de arquivos PDF.  
+- **PyMuPDF (fitz)**: Usado para extrair texto das páginas de um PDF e realizar a busca por palavras-chave.  
+- **tkinter**: Ferramenta para criar interfaces gráficas de maneira simples e funcional.  
+- **threading**: Para garantir que a ferramenta permaneça responsiva durante o processo de separação de páginas, especialmente em arquivos grandes.
 
-### Como instalar as dependências no Linux:
+---
 
-```bash
-pip install PyPDF2 pymupdf tk
+## 🛠 Como Instalar
 
+1. Clone o repositório para o seu computador:
+
+   ```bash
+   git clone https://github.com/seu-usuario/PDF-Split-Pro.git
