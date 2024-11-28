@@ -63,4 +63,4 @@ Antes de rodar a ferramenta, instale as seguintes dependências utilizando o **p
 1. Clone o repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/seu-usuario/PDF-Split-Pro.git
+   git clone https://github.com/WesleyA0101/PDF-Split-Pro.git
