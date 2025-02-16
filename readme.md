@@ -58,9 +58,48 @@ Antes de rodar a ferramenta, instale as seguintes dependências utilizando o **p
 
 ---
 
-## 🛠 Como Instalar
 
-1. Clone o repositório para o seu computador:
+## 🛠 Como Instalar e Executar o PDF Split PRO
 
-   ```bash
-   git clone https://github.com/WesleyA0101/PDF-Split-Pro.git
+### 📥 Passo 1: Clonar o Repositório
+
+Abra o terminal e execute o seguinte comando para clonar o repositório:
+
+```bash
+git clone https://github.com/WesleyA0101/PDF-Split-Pro.git
+```
+
+Depois, acesse a pasta do projeto:
+
+```bash
+cd PDF-Split-Pro
+```
+
+---
+
+### 🔧 Passo 2: Instalar Dependências
+
+Para facilitar a instalação das bibliotecas necessárias, utilizamos um script `install.sh`. Ele instalará todas as dependências automaticamente.
+
+Se você estiver no **Linux** execute o seguinte comando:
+
+```bash
+chmod +x install.sh  # Concede permissão de execução ao script
+./install.sh         # Executa o script de instalação
+```
+
+Se estiver no **Windows**, você pode rodar os comandos manualmente no terminal:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 🚀 Passo 3: Executar a Ferramenta
+
+Após a instalação, execute o programa com:
+
+```bash
+python pdf_split_pro.py
+```
